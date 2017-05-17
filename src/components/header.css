@@ -1,0 +1,39 @@
+.navbar-default{
+	background-color: #918EF4;
+	color: white;
+	font-family: 'Volkhov', serif;
+}
+
+.headerName{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+}
+
+.headerName h3, .headerName h1{
+	display: inline;
+	font-family: 'Volkhov', serif;
+}
+
+.headerName h3{
+	font-style: italic;
+	font-weight: 700;
+}
+
+.siteNav{
+	float:right;
+	list-style: none;
+	padding: 20px 0px 20px 0px;
+	margin-right: 100px;
+}
+
+.siteNav li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 5px;
+}
+
+.active{
+	font-style: italic;
+	font-weight: 700;
+}

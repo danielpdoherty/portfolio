@@ -1,0 +1,56 @@
+
+.letter { 
+	height: 700px;
+	width: 100%;
+	border: 1px solid black;
+	padding-left: 20px;
+	position: relative;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: white;
+}
+.contactForm input, textarea{
+	width: 100%;
+}
+
+.contactForm textarea{
+	height: 400px;
+}
+
+.letterSign{
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.greeting{
+	position: absolute;
+	bottom: 480;
+	left: 40;
+}
+
+.ps{
+	position: absolute;
+	bottom: 0;
+	left: 20;
+}
+
+
+.stamp{
+	float: right;
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    transform: rotate(330deg);
+    border: 5px solid rgba(255,0,0,0.7);
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: white;
+    font-size: 30px;
+    color: rgba(255,0,0,0.6);
+    font-family: 'Vollkorn', serif;
+}
+
+.date-time{
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}

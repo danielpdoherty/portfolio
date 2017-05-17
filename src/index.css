@@ -1,0 +1,8 @@
+body{
+	background-color: #D8E4FF;
+}
+
+a:hover, a:default, a:active, a:link, li:hover, li:default, li:active, li:link{
+	text-decoration: none;
+	color: white;
+}

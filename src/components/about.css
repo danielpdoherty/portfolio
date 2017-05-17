@@ -1,0 +1,42 @@
+section{
+	background-color: #D8E4FF;
+	margin-bottom: 200px;
+}
+
+.centeringDiv{
+	display: block;
+}
+
+@media only screen and (max-width: 732px) {
+	#myCanvas{
+		width: 90%;
+	}
+}
+
+#myCanvas{
+	 border: 1px solid #d3d3d3;
+	 background-color: rgba(0,0,0,.9);
+	 zoom: 1.5;
+	 margin-left: 50px;
+}
+
+#reset{
+	margin-left: 55%;
+	padding: 20px 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #918EF4;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.about p{
+	margin: 20px;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.about h2{
+	font-size: 40px;
+	font-family: Arial;
+}

@@ -10,7 +10,7 @@
 	margin-bottom: 20px;
 }
 
-.dTune img,.cWish img,.wPres img,.w95 img{
+.dTune img,.cWish img,.wPres img,.w95 img, .cMom img{
 	width: 100%;
 	height: 500px;
 	border: 2px solid black;
@@ -40,6 +40,10 @@
 
 .w3-modal-content .workInProg{
 	background-color: red;
+}
+
+.w3-modal-content .comingSoon{
+	background-color: green;
 }
 
 .imgBlock{

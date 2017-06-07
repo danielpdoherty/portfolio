@@ -91,6 +91,9 @@ class Portfolio extends Component{
 						        <a href="https://danielpdoherty.github.io/food-project/#/omni" target="_blank">
 						        	<button>Visit Live Site</button>
 						        </a>
+						        <a href="https://github.com/danielpdoherty/food-project" target="_blank">
+						        	<button className="githubRepo">Visit Github Repo</button>
+						        </a>
 						      </header>
 						      	<div className="imgBlock">
 						        	<img className="modalImage" src={dineWeb} alt="Dinetuning Site" />
@@ -118,6 +121,9 @@ class Portfolio extends Component{
 								and Bootstrap's javascript library.</p>
 						      	<a href="https://sgoldgar.github.io/CharityProject_FrontEnd/index.html" target="_blank">
 						        	<button>Visit Live Site</button>
+						        <a href="https://github.com/Hooli-ana/charityProject" target="_blank">
+						        	<button className="githubRepo">Visit Github Repo</button>
+						        </a>
 						        </a>
 						      </header>
 						      	<div className="imgBlock">
@@ -146,6 +152,9 @@ class Portfolio extends Component{
 						        	It was made in React and makes good use of react-router and firebase for a clean and highly functional site.
 						        </p>
 						        	<button className="comingSoon">Coming Soon</button>
+						        <a href="https://github.com/danielpdoherty/callyourmom" target="_blank">
+						        	<button className="githubRepo">Visit Github Repo</button>
+						        </a>
 						      </header>
 						      	<div className="imgBlock">
 						      		<img className="modalImage" src={momWeb} alt="Call Mom Site" />
@@ -174,6 +183,9 @@ class Portfolio extends Component{
 						       	<a href="https://danielpdoherty.github.io/about_me/" 
 						       	target="_blank">
 						        	<button>Visit Live Site</button>
+						        </a>
+								<a href="https://github.com/danielpdoherty/about_me" target="_blank">
+						        	<button className="githubRepo">Visit Github Repo</button>
 						        </a>
 						      </header>
 						      	<div className="imgBlock">

@@ -58,3 +58,7 @@
 	border-radius: 0px;
 	margin: 0px;
 }
+
+.w3-modal-content .githubRepo{
+	background-color: black;
+}

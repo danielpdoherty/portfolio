@@ -151,7 +151,9 @@ class Portfolio extends Component{
 						        	a humorous website for when you call your parents and are unsure of what to talk about.
 						        	It was made in React and makes good use of react-router and firebase for a clean and highly functional site.
 						        </p>
-						        	<button className="comingSoon">Coming Soon</button>
+						        <a href="https://danielpdoherty.github.io/callyourmom/#/" target="_blank">
+						        	<button>Visit Live Site</button>
+						        </a>
 						        <a href="https://github.com/danielpdoherty/callyourmom" target="_blank">
 						        	<button className="githubRepo">Visit Github Repo</button>
 						        </a>

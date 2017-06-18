@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CanvasCode from '../img/canvasCode.JPG';
 
 class Canvas extends Component{
 	componentDidMount(){
@@ -166,6 +167,12 @@ class Canvas extends Component{
 			<div className="centeringDiv">
 				<canvas ref="canvas" id="myCanvas" width="400px" height="400px">
 				Your browser does not support the HTML5 canvas tag.</canvas>
+				<button id="code toolTip" className="w3-btn w3-round w3-ripple">
+					Show Code
+					<span id="toolTipImage">	
+						<img src={CanvasCode} alt="Canvas Code" />
+					</span>
+				</button>
 				<button id="reset" className="w3-btn w3-round w3-ripple">Reset</button>
 			</div>
 		);	

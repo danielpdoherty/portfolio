@@ -16,7 +16,7 @@ section{
 #myCanvas{
 	 border: 1px solid #d3d3d3;
 	 background-color: rgba(0,0,0,.9);
-	 zoom: 1.5;
+	 zoom: 1.4;
 	 margin-left: 50px;
 }
 
@@ -39,4 +39,31 @@ section{
 .about h2{
 	font-size: 40px;
 	font-family: Arial;
+}
+
+#toolTip {
+    position: relative;
+    display: inline-block;
+}
+
+#toolTip #toolTipImage img{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#toolTip:hover #toolTipImage {
+    visibility: visible;
+    opacity: 1;
 }

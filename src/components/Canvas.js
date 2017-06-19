@@ -5,6 +5,7 @@ class Canvas extends Component{
 	componentDidMount(){
 		this.updateCanvas();
 	};
+
 	updateCanvas(){
 			const c = document.getElementById("myCanvas");
 			const ctx = this.refs.canvas.getContext("2d");
@@ -160,6 +161,16 @@ class Canvas extends Component{
 		reset();
 	}
 
+		openCanvasModal(e){
+		e.preventDefault();
+		document.getElementById('codeC').style.display='block';
+	}
+
+	closeCanvasModal(e){
+		e.preventDefault()
+		document.getElementById('codeC').style.display='none';
+	}
+
 	render(){
 
 	
@@ -167,13 +178,29 @@ class Canvas extends Component{
 			<div className="centeringDiv">
 				<canvas ref="canvas" id="myCanvas" width="400px" height="400px">
 				Your browser does not support the HTML5 canvas tag.</canvas>
-				<button id="code toolTip" className="w3-btn w3-round w3-ripple">
-					Show Code
-					<span id="toolTipImage">	
-						<img src={CanvasCode} alt="Canvas Code" />
-					</span>
-				</button>
-				<button id="reset" className="w3-btn w3-round w3-ripple">Reset</button>
+				<div className="button-container">
+					<div className="w3-container">
+						<button 
+							id="showCode" 
+							className="w3-btn w3-round w3-ripple"
+							onClick={this.openCanvasModal} >
+								Show Code
+						</button>
+					<button id="reset" className="w3-btn w3-round w3-ripple">Reset</button>
+					<div id="codeC" className="w3-modal">
+							    	<div className="w3-modal-content">
+									    <header className="w3-container w3-teal"> 
+									        <span onClick={this.closeCanvasModal} 
+									        	className="w3-button w3-display-topright">&times;
+									        </span>
+									    </header>
+								      	<div className="canvasBlock">
+								        	<img className="canvasCodeImage" src={CanvasCode} alt="Code for Canvas" />
+							    		</div>
+							    	</div>
+								</div>
+					</div>			
+				</div>
 			</div>
 		);	
 	}

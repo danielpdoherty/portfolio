@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.79610180.css",
   "main.css.map": "static/css/main.79610180.css.map",
-  "main.js": "static/js/main.f0d8e851.js",
-  "main.js.map": "static/js/main.f0d8e851.js.map",
+  "main.js": "static/js/main.f84b2201.js",
+  "main.js.map": "static/js/main.f84b2201.js.map",
   "static\\media\\about1.JPG": "static/media/about1.ac53a881.JPG",
   "static\\media\\about2.JPG": "static/media/about2.9e173eae.JPG",
   "static\\media\\callmom1.JPG": "static/media/callmom1.4e26ff29.JPG",
@@ -12,11 +12,11 @@
   "static\\media\\charity1.JPG": "static/media/charity1.cc062010.JPG",
   "static\\media\\charity2.JPG": "static/media/charity2.e286bf49.JPG",
   "static\\media\\charity3.JPG": "static/media/charity3.abeeae01.JPG",
+  "static\\media\\danielresume.pdf": "static/media/danielresume.589d3f4b.pdf",
   "static\\media\\dine1.JPG": "static/media/dine1.6fd06a5c.JPG",
   "static\\media\\dine2.JPG": "static/media/dine2.1954abf7.JPG",
   "static\\media\\dine3.JPG": "static/media/dine3.a6502b93.JPG",
   "static\\media\\errors.JPG": "static/media/errors.7595b9ba.JPG",
-  "static\\media\\modalresume.pdf": "static/media/modalresume.6703aef2.pdf",
   "static\\media\\windows1.JPG": "static/media/windows1.c9d83fd6.JPG",
   "static\\media\\windows2.JPG": "static/media/windows2.b688aa29.JPG"
 }

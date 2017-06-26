@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import resume from '../img/modalresume.pdf';
+import resume from '../img/danielresume.pdf';
 import './resume.css';
 
 class Resume extends Component{
